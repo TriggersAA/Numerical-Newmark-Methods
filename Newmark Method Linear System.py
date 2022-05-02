@@ -25,7 +25,7 @@ c = 0
 
 # initial calculations
 
-forcingFunction = 10
+forcingFunction = 10.0
 acc = ((forcingFunction * sin(0)) - c * vel - K * disp) / mass
 
 delta_t = 0.01
