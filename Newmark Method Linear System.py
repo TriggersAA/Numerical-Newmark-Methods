@@ -14,7 +14,7 @@ initials = [0, 0]
 disp, vel = initials
 K = int(input("Give value for initial stiffness(kN/m):  "))
 
-T_n = 1
+T_n = 1.0
 # td/Tn = 0.75
 t_d = 0.75 * 1
 omega = 2 * pi / t_d
